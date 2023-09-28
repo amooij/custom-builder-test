@@ -22,5 +22,9 @@
         "phpstan/phpstan-strict-rules": "^1.5",
         "phpstan/phpstan-deprecation-rules": "^1.1",
         "orchestra/testbench": "^8.12"
+    },
+    "scripts": {
+	    "phpstan:clear": "vendor/bin/phpstan clear-result-cache",
+	    "phpstan:check": "vendor/bin/phpstan analyze"
     }
 }
