@@ -1,0 +1,26 @@
+{
+    "name": "mooij/custom-builder-test",
+    "description": "Test for Custom Eloquent Builder issues with Larastan",
+    "type": "project",
+    "require": {
+        "laravel/laravel": "^10.2"
+    },
+    "license": "LGPL",
+    "autoload": {
+        "psr-4": {
+            "Mooij\\CustomBuilderTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andries Mooij",
+            "email": "a.mooij@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "nunomaduro/larastan": "^2.6",
+        "phpstan/phpstan-strict-rules": "^1.5",
+        "phpstan/phpstan-deprecation-rules": "^1.1",
+        "orchestra/testbench": "^8.12"
+    }
+}
